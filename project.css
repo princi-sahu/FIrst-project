@@ -1,0 +1,230 @@
+    
+.logo img{
+    height: 80px;
+    width: 100px;
+    padding-top: 5px;
+}
+.navbar{
+    display: flex;
+    align-items :center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: palevioletred;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    padding: 0 40px;
+}
+.nav li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover,
+.nav li a.active{
+    color: rgb(15, 34, 142);
+}
+.hero{
+    padding-top: 40px;
+    background-image: url("girl.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content : center;
+   line-height: 10px;
+    
+}
+.a{
+    margin-left:  100px;
+    font-size: 30px;
+    
+}
+.btn{
+    width: 100px;
+   margin-left: 150px;
+    margin-top: 10px;
+    background-image: url("button.png");
+    background-color: palevioletred;
+    padding: 10px;
+    border-radius: 20px;
+}
+.hero h1{
+    color: rgb(31, 89, 31);
+}
+.feature{
+    display: flex;
+    height: 250px;
+    width:100%;
+    background-color: palevioletred;
+    
+}
+.elements{
+    border: 2px solid black;
+    padding: 40px;
+    margin: 20px;
+    width: 250px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature img{
+    height: 100px;
+    width: 100%;
+
+}
+h5{
+    margin-left: 30px;
+}
+.cards-container{
+    background-color: palevioletred;
+    padding: 10px;
+    display: flex;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+    background-color: palevioletred;
+    margin-top:10px ;
+}
+.card{
+    border: 2px solid rgb(184, 180, 180);
+    border-radius: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+    margin: 30px;
+    
+    
+}
+.card-img{
+    width: 200px;
+    height: 70%;
+    border-radius: 20px;
+}
+.footer {
+    background-color: rgb(133, 12, 52);
+    height: 200px;
+    width: 100%;
+    margin : 30px 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    line-height: 8px;
+}
+.btn2{
+    width: 100px;
+     margin-top: 10px;
+     background-image: url("button.png");
+     background-color: palevioletred;
+     padding: 10px;
+     border-radius: 20px;
+}
+
+button:hover{
+    background-color: yellow;
+}
+.star{
+    display: flex;
+}
+.shop{
+    position: relative;
+    left: 40px;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}
+.banner-ele{
+    display: flex;
+    flex-direction: column;
+    background-image: url("trendy.webp");
+   
+    width: 50%;
+    background-size: cover;
+    padding: 30px;
+    line-height: 15px;
+}
+.banner-ele2{
+    display: flex;
+    flex-direction: column;
+    background-image: url("trendy2.avif");
+     width: 50%;
+    background-size: cover;
+    padding: 30px;
+    line-height: 15px;
+}
+.banner-ele2 button{
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    border-radius: 7px;
+   
+}
+.newsletter{height: 100px;
+    width: 100% ;
+    background-color: rgb(27, 2, 50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 3px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+
+    height: 9.25rem;
+}
+.endcontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    
+    
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+
+}
+.About{
+    padding-right: 50px;
+}
+.icons{
+    opacity: 0.6;
+
+}
+.icon:hover{
+    opacity: 1;
+    font-size: 20px;
+}

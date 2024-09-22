@@ -1,0 +1,222 @@
+
+.logo img{
+    height: 80px;
+    width: 100px;
+    padding-top: 5px;
+}
+.navbar{
+    display: flex;
+    align-items :center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: palevioletred;
+    position: fixed;
+    width: 100%;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    padding: 0 40px;
+}
+.nav li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover,
+.nav li a.active{
+    color: rgb(15, 34, 142);
+}
+.background{
+    background-image: url("background");
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+      
+}
+
+.feature{
+    display: flex;
+    height: 250px;
+    width:100%;
+    background-color: palevioletred;
+    
+}
+.elements{
+    border: 2px solid black;
+    padding: 40px;
+    margin: 20px;
+    width: 250px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature img{
+    height: 100px;
+    width: 100%;
+
+}
+.shop{
+    position: relative;
+    left: 120px;
+    bottom: 15px;
+}
+h5{
+    margin-left: 30px;
+}
+.cards-container{
+    background-color: palevioletred;
+    padding: 10px;
+    display: flex;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+    background-color: palevioletred;
+    margin-top:10px ;
+}
+.card{
+    border: 2px solid rgb(184, 180, 180);
+    border-radius: 20px;
+    width: 200px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+    margin: 30px;
+    
+    
+}
+.card-img{
+    width: 200px;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.newsletter{height: 100px;
+    width: 100% ;
+    background-color: rgb(27, 2, 50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 3px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+
+    height: 9.25rem;
+}
+.endcontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    
+    
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+
+}
+.About{
+    padding-right: 50px;
+}
+.icons{
+    opacity: 0.6;
+
+}
+.icon:hover{
+    opacity: 1;
+    font-size: 20px;
+}
+ .poster{
+    background-image: url("background");
+background-size :contain;
+    height: 200px;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-img img{
+    height: 400px;
+    width: 400px;
+}
+.about-detail{
+    height: 400px;
+    width: 600px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.contact-map img{
+    height: 300px;
+    width: 400px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.form input{
+    margin: 10px;
+    width: 50%;
+
+}
+.form textarea{
+    margin: 10px;
+    width: 50%;
+    
+}
+.form button{
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    margin: 20px;
+}
+

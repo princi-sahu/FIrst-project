@@ -1,0 +1,135 @@
+.logo img{
+    height: 80px;
+    width: 100px;
+    padding-top: 5px;
+}
+.navbar{
+    display: flex;
+    align-items :center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: palevioletred;
+  
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav li{
+    list-style: none;
+    padding: 0 40px;
+}
+.nav li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover,
+.nav li a.active{
+    color: rgb(15, 34, 142);
+}
+.newsletter{
+    height: 100px;
+    width: 100% ;
+    background-color: rgb(27, 2, 50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+   
+
+}
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    line-height: 3px;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+
+    height: 9.25rem;
+}
+.endcontent{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+    
+    
+}
+.second{
+  display: flex;
+  justify-content: space-between;
+
+}
+.About{
+    padding-right: 50px;
+}
+.icons{
+    opacity: 0.6;
+
+}
+.icon:hover{
+    opacity: 1;
+    font-size: 20px;
+}
+@media(max-width:799px){
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top:0;
+        height: 100vh;
+        width: 300px;
+        background-color: antiquewhite;
+
+    }
+}
+.clothes{
+     display: flex;
+     align-items: center;
+
+}
+#img{
+    height: 300px;
+    width: 250px;
+    padding :50px;
+    padding-bottom: 0;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.variety{
+    padding-left: 50px;
+    display: flex;
+    
+    width: 250px;
+}
+.variety img{
+    height: 100px;
+    width: 80px;
+    border: 2px solid black;
+    
+}
+.right{
+    padding-right: 400px;
+}
+.right button{
+    background-color: green;
+    color: azure;
+}
+.right select{
+    background-color: yellow;
+}
+.right p{
+    list-style: 5px;
+}
